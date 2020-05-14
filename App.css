@@ -1,0 +1,53 @@
+body{
+  background-color:#929fad;
+}
+.sp1{
+	font-size:40px;
+	margin-left:140px;
+	margin-top:23px;
+	text-align:center;
+	font-weight: bold;
+	color:#d7e02d;
+	text-decoration: underline;
+}
+.App{
+min-height: 500px;
+width:400px;
+margin:40px auto;
+background-color: #700b52;
+border-radius: 2px;
+box-shadow: 5px 10px 5px ;
+}
+#to-do-form input{
+	background-color:#0b1457;
+	border:1px solid white;
+	width:200px;
+	height:50px;
+	padding:0 20px;
+	margin:20 px;
+	font-size: 18px;
+	border-radius:10px;
+	color:#f5f6f7;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 40px;
+	box-shadow: 2px 2px gray;
+}
+#to-do-form input::placeholder{
+	color:black;
+}
+#to-do-form input:focus, #to-do-form button:focus{
+	outline:none;
+}
+#to-do-form button{
+	height:50px;
+	width:80px;
+	border-radius:5px;
+	border:2px solid white;
+	background-color:#0e3620;
+	cursor:pointer;
+	font-weight:border;
+	color: #dfe6e2;
+	margin:auto;
+	box-shadow: 2px 4px gray;
+}
